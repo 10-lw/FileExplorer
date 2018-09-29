@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">文件管理</string>
+    <string name="back">返回</string>
+    <string name="files">文件</string>
+    <string name="apps">应用</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="loading">正在加载...</string>
+    <string name="install_app">安装</string>
+    <string name="remove_file">移除</string>
+    <string name="ok">ok</string>
+    <string name="cancel">取消</string>
+    <string name="no_files">没有找到匹配的文件</string>
+    <string name="app_have_installed">应用已安装.</string>
+    <string name="have_been_installd">已安装</string>
+</resources>

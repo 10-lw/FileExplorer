@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="5dp"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/item_icon"
+        android:layout_width="@dimen/icon_size"
+        android:layout_height="@dimen/icon_size"
+        android:layout_alignParentLeft="true" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:layout_toRightOf="@+id/item_icon">
+
+        <TextView
+            android:id="@+id/file_name"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="0dp" />
+
+        <TextView
+            android:id="@+id/file_size"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="0dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/install_or_remove"
+        android:layout_alignParentRight="true"
+        android:text="remove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
